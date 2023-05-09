@@ -309,7 +309,8 @@ body {
           color: #fff; }
   .container footer {
     max-width: 1340px;
-    margin-top: 260px; }
+    margin-top: 260px;
+    margin-bottom: 133px; }
     .container footer img {
       width: 80%; }
     .container footer h2 {
@@ -327,25 +328,26 @@ body {
       font-family: Poppins;
       font--weight: 400;
       font-size: 16px;
-      width: 360px;
+      width: 450px;
       cursor: pointer;
       padding: 26px 0px 30px 33px;
       border-radius: 5px; }
     .container footer button {
       width: 264px;
-      padding: 25px 81px 25px 82px;
+      padding: 23px 81px 27px 82px;
       border-radius: 5px;
       background-color: #263238;
       font-family: Poppins;
       font--weight: 500;
       font-size: 20px;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin-left: 8px; }
     .container footer button:hover {
       background-color: #EEEEEE;
       color: #263238; }
   .container .line {
     max-width: 1340px;
-    margin-top: 165px; }
+    margin-bottom: 30px; }
     .container .line hr {
       height: 2px; }
   .container .end {
@@ -360,11 +362,18 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
+      -webkit-box-pack: space-beetwen;
+      -ms-flex-pack: space-beetwen;
+      justify-content: space-beetwen;
+      float: right; }
       .container .end ul a {
+        display: block;
         color: #8F95A5;
         font-family: Poppins;
         font--weight: 400;
-        font-size: 24px; }
+        font-size: 24px;
+        margin-right: 25px; }
+      .container .end ul li:nth-child(1) {
+        list-style-type: none; }
+      .container .end ul li:nth-child(3) a {
+        margin-right: 0; }
